@@ -1,0 +1,100 @@
+@import url("https://fonts.cdnfonts.com/css/glacial-indifference-2");
+
+body {
+  font-family: "Glacial Indifference", sans-serif;
+  background: linear-gradient(to right, #b9e6eb, #b9e6eb) left,
+    linear-gradient(to right, #fffb8a, #fffb8a) right;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+section.jumbroton {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+  gap: 35vw;
+  margin: 20vh 0;
+}
+section.category-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  gap: 10vw;
+  margin: 20vh 0;
+}
+
+.btn-category-content {
+  font-size: 1.5rem;
+}
+
+.btn-category-content {
+  background-color: #ff8b43;
+  color: #fff;
+}
+
+.btn-category-content:hover {
+  background-color: #fff;
+  color: #ff8b43;
+  border: 2px solid #ff8b43;
+}
+
+.jumbroton {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* edukasi */
+.edukasi-container {
+  display: flex;
+  gap: 10vw;
+  align-items: center;
+}
+
+/* quiz */
+.quiz-container {
+  padding: 25px 0;
+  display: flex;
+  gap: 10vw;
+  align-items: center;
+}
+
+@media (max-width: 995px) {
+  .jumbroton {
+    text-align: center !important;
+  }
+  .subTitle {
+    width: auto !important;
+  }
+
+  .jumbotron-title h1,
+  .jumbotron-title h2,
+  .jumbotron-title .subTitle {
+    text-align: center !important;
+  }
+  /* edukasi */
+  .edukasi-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: 10vw;
+    align-items: center;
+  }
+
+  /* quiz */
+  .quiz-container {
+    padding: 25px 0;
+    display: flex;
+    gap: 10vw;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .quiz-container iframe {
+    width: 90vw !important;
+    height: fit-content;
+  }
+}
