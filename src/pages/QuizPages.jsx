@@ -31,7 +31,7 @@ const QuizPages = () => {
           </div>
           <div className="iframe-content">
             <iframe
-              src="https://forms.gle/BJrYipqKnAded9Vj6"
+              src="https://forms.gle/TASF78mM4Q9QxjvKA"
               title="form-quiz"
               frameborder="0"
               style={{ width: "42vw", height: "80vh" }}
