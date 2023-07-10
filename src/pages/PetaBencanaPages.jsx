@@ -23,9 +23,33 @@ const PetaBencanaPages = () => {
               className="img-list"
               style={{ display: "flex", flexDirection: "column", gap: "20px" }}
             >
-              <img src={PetaBanjir} width={600} alt="..." />
-              <img src={PetaLongsor} width={600} alt="..." />
-              <img src={PetaGempa} width={600} alt="..." />
+              <div className="img-item">
+                <img
+                  src={PetaBanjir}
+                  alt="Banjir"
+                  data-label="Peta Banjir"
+                  class="img-bencana"
+                />
+                <span>Peta Banjir</span>
+              </div>
+              <div className="img-item">
+                <img
+                  src={PetaLongsor}
+                  alt="Longsor"
+                  data-label="Peta Longsor"
+                  class="img-bencana"
+                />
+                <span>Peta Longsor</span>
+              </div>
+              <div className="img-item">
+                <img
+                  src={PetaGempa}
+                  alt="Gempa"
+                  data-label="Peta Gempa"
+                  class="img-bencana"
+                />
+                <span>Peta Gempa</span>
+              </div>
             </div>
           </div>
           <div className="text-content">

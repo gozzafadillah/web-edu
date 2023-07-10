@@ -2,7 +2,6 @@ import Navbar from "../components/Navbar";
 import Jumbotron from "../components/Jumbotron";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
-import { Element } from "react-scroll";
 
 const HomePages = () => {
   return (
@@ -20,8 +19,8 @@ const HomePages = () => {
           <img
             src="https://res.cloudinary.com/dt91kxctr/image/upload/v1679025412/ykmbpdz9lnxnmiqpa575.png "
             alt="Peta"
-            width="175px"
-            height="120px"
+            width="195px"
+            height="150px"
           />
           <Link to="/peta-bencana" className="btn btn-category-content">
             Peta Digital
@@ -34,8 +33,8 @@ const HomePages = () => {
           <img
             src="https://res.cloudinary.com/dt91kxctr/image/upload/v1679025527/nb7hfj5duyjmlcpq6fjq.png"
             alt="Education"
-            width="175px"
-            height="120px"
+            width="195px"
+            height="150px"
           />
           <Link to="/edukasi" className="btn btn-category-content">
             Education
@@ -48,8 +47,8 @@ const HomePages = () => {
           <img
             src="https://res.cloudinary.com/dt91kxctr/image/upload/v1679025442/d0xypxagzu5qfkncg6dm.png"
             alt="Peta"
-            width="175px"
-            height="120px"
+            width="195px"
+            height="150px"
           />
           <Link to="/quiz" className="btn btn-category-content">
             Quiz

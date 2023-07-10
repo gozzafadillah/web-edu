@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import PetaBanjir from "../assets/img/resiko-banjir.png";
-import PetaLongsor from "../assets/img/resiko-longsor.png";
-import PetaGempa from "../assets/img/resiko-gempa.png";
 import { animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
+import banjir from "../assets/img/logo-banjir.png";
+import gempa from "../assets/img/logo-gempa.png";
+import longsor from "../assets/img/logo-longsor.png";
 
 const EdukasiPages = () => {
   useEffect(() => {
@@ -15,28 +16,95 @@ const EdukasiPages = () => {
   return (
     <div>
       <Navbar />
-      <section className="edukasi">
-        <div className="container edukasi-container p-2">
-          <div className="img-content py-3">
-            <div
-              className="img-list"
-              style={{ display: "flex", flexDirection: "column", gap: "20px" }}
-            >
-              <img src={PetaBanjir} width={600} alt="..." />
-              <img src={PetaLongsor} width={600} alt="..." />
-              <img src={PetaGempa} width={600} alt="..." />
+      <div className="container my-5">
+        <section className="bencana-category">
+          <div
+            className="bencana-list"
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              flexWrap: "wrap",
+              gap: "10px",
+              margin: "20px 0px",
+              padding: "20px",
+              justifyContent: "center",
+            }}
+          >
+            <div className="bencana-item">
+              <Link
+                to="#"
+                style={{
+                  display: "flex",
+                  textDecoration: "none",
+                  color: "black",
+                  fontWeight: "bold",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <img src={banjir} className="logo-bencana" alt="banjir" />
+                <h2>Banjir</h2>
+              </Link>
+            </div>
+            <div className="bencana-item">
+              <Link
+                to="#"
+                style={{
+                  display: "flex",
+                  textDecoration: "none",
+                  color: "black",
+                  fontWeight: "bold",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <img src={longsor} className="logo-bencana" alt="longsor" />
+                <h2>Longsor</h2>
+              </Link>
+            </div>
+            <div className="bencana-item">
+              <Link
+                to="#"
+                style={{
+                  display: "flex",
+                  textDecoration: "none",
+                  color: "black",
+                  fontWeight: "bold",
+                  flexDirection: "column",
+                  alignItems: "center",
+                }}
+              >
+                <img src={gempa} className="logo-bencana" alt="gempa" />
+                <h2>Gempa</h2>
+              </Link>
             </div>
           </div>
-          <div className="text-content">
-            <h1 style={{ fontWeight: "bold" }}>Peta Bencana Kota Bandung</h1>
-            <p style={{ fontSize: "20px" }}>
-              Jika teman-teman melihat peta di samping, teman-teman dapat
-              mengetahui bahwa kawasan Kota Bandung yang memiliki tingkat
-              kerawanan bencana tertinggi berada di Kota Bandung....
-            </p>
+        </section>
+
+        <section
+          className="penjelasan"
+          style={{
+            margin: "40px",
+            padding: "20px",
+            fontSize: "25px",
+            backgroundColor: "#ff8b43",
+          }}
+        >
+          <div className="container">
+            <div
+              className="card border-0"
+              style={{ backgroundColor: "#ff8b43", fontWeight: "bold" }}
+            >
+              <div className="card-body">
+                Edukasi kesiapsiagaan bencana merupakan suatu fitur yang
+                berfungsi untuk memberikan informasi tentang tata cara dalam
+                menghadapi bencana baik dari tahap pra-bencana , bencana, dan
+                pasca bencana melalui audio visual dan teks.
+              </div>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
       <Footer />
     </div>
   );
