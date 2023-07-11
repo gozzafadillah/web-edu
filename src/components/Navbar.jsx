@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-transparent">
       <div className="container">
-        <Link className="navbar-brand" to="#">
+        <Link className="navbar-brand" to="/contact">
           <img
             src="https://img.freepik.com/free-icon/warning_318-502947.jpg"
             alt="Logo"
@@ -60,7 +60,7 @@ const Navbar = () => {
                 color: "white",
                 width: "75px",
               }}
-              to="#"
+              to="/contact"
             >
               Contact
             </Link>

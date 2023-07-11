@@ -88,6 +88,11 @@ section.category-content {
   height: 300px;
 }
 
+/* contact us */
+.img-contact-us {
+  width: 600px;
+}
+
 @media (max-width: 995px) {
   .jumbroton {
     text-align: center !important;
@@ -125,6 +130,10 @@ section.category-content {
     width: 90vw !important;
     height: fit-content;
   }
+  /* contact us */
+  .img-contact-us {
+    width: 400px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -143,5 +152,9 @@ section.category-content {
   }
   .logo-bencana {
     width: 200px;
+  }
+  /* contact us */
+  .img-contact-us {
+    width: 300px;
   }
 }

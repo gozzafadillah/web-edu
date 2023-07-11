@@ -4,6 +4,7 @@ import HomePages from "../pages/HomePages";
 import PetaBencanaPages from "../pages/PetaBencanaPages";
 import QuizPages from "../pages/QuizPages";
 import EdukasiPages from "../pages/EdukasiPages";
+import ContactPages from "../pages/ContactPages";
 
 const RouteConfig = () => {
   return (
@@ -13,6 +14,7 @@ const RouteConfig = () => {
         <Route path="/peta-bencana" element={<PetaBencanaPages />} />
         <Route path="/quiz" element={<QuizPages />} />
         <Route path="/edukasi" element={<EdukasiPages />} />
+        <Route path="/contact" element={<ContactPages />} />
       </Routes>
     </BrowserRouter>
   );
