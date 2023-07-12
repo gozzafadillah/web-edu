@@ -106,17 +106,6 @@ section.category-content {
   .jumbotron-title .subTitle {
     text-align: center !important;
   }
-  /* edukasi */
-
-  /* .edukasi-container {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-    gap: 10vw;
-    align-items: center;
-  } */
-
   /* quiz */
   .quiz-container {
     padding: 25px 0;
@@ -151,7 +140,6 @@ section.content-education .container {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
-  text-transform: uppercase;
 }
 
 .content-right .content-body {
@@ -169,7 +157,7 @@ section.content-education .container {
     flex-wrap: wrap;
   }
   .video-content iframe {
-    width: 40vw;
+    width: 50vw;
     height: 20vh;
   }
   .content-right .content-body {

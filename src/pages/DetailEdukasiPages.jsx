@@ -34,7 +34,6 @@ const DetailEdukasiPages = () => {
     }
   }, [name]);
 
-  console.log("https://youtu.be/" + data?.video);
   return (
     <div>
       <Navbar />
