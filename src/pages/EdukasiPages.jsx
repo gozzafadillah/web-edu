@@ -32,7 +32,7 @@ const EdukasiPages = () => {
           >
             <div className="bencana-item">
               <Link
-                to="#"
+                to="/edukasi/banjir"
                 style={{
                   display: "flex",
                   textDecoration: "none",
@@ -48,7 +48,7 @@ const EdukasiPages = () => {
             </div>
             <div className="bencana-item">
               <Link
-                to="#"
+                to="/edukasi/longsor"
                 style={{
                   display: "flex",
                   textDecoration: "none",
@@ -64,7 +64,7 @@ const EdukasiPages = () => {
             </div>
             <div className="bencana-item">
               <Link
-                to="#"
+                to="/edukasi/gempa"
                 style={{
                   display: "flex",
                   textDecoration: "none",
