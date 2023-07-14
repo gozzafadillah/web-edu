@@ -5,6 +5,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import banjir from "../assets/content/banjir";
 import gempa from "../assets/content/gempa";
 import longsor from "../assets/content/longsor";
+import ReactGA from "react-ga";
 
 const DetailEdukasiPages = () => {
   const navigate = useNavigate();
@@ -18,12 +19,15 @@ const DetailEdukasiPages = () => {
     switch (name) {
       case "banjir":
         setData(banjir);
+        ReactGA.pageview("/edukasi/banjir");
         break;
       case "gempa":
         setData(gempa);
+        ReactGA.pageview("/edukasi/gempa");
         break;
       case "longsor":
         setData(longsor);
+        ReactGA.pageview("/edukasi/longsor");
         break;
       default:
         setData({

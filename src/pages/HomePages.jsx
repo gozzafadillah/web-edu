@@ -2,8 +2,21 @@ import Navbar from "../components/Navbar";
 import Jumbotron from "../components/Jumbotron";
 import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
+import ReactGA from "react-ga";
 
 const HomePages = () => {
+  function generateRandomUserId() {
+    const randomId = Math.random().toString(36).substring(2, 10);
+    return `user_${randomId}`;
+  }
+  useEffect(() => {
+    ReactGA.initialize("G-01D23PJBCX");
+    ReactGA.pageview(window.location.pathname + window.location.search);
+    // Menggunakan ID pengunjung atau sesi yang dibuat secara acak
+    const userId = generateRandomUserId();
+    ReactGA.set({ userId });
+  }, []);
   return (
     <div>
       <Navbar />
