@@ -6,12 +6,13 @@ import { useEffect } from "react";
 import ReactGA from "react-ga";
 
 const HomePages = () => {
+  ReactGA.initialize("G-01D23PJBCX");
+
   function generateRandomUserId() {
     const randomId = Math.random().toString(36).substring(2, 10);
     return `user_${randomId}`;
   }
   useEffect(() => {
-    ReactGA.initialize("G-01D23PJBCX");
     ReactGA.pageview(window.location.pathname + window.location.search);
     // Menggunakan ID pengunjung atau sesi yang dibuat secara acak
     const userId = generateRandomUserId();
