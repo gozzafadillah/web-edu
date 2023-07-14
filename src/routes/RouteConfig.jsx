@@ -6,10 +6,12 @@ import QuizPages from "../pages/QuizPages";
 import EdukasiPages from "../pages/EdukasiPages";
 import ContactPages from "../pages/ContactPages";
 import DetailEdukasiPages from "../pages/DetailEdukasiPages";
+import { Analytics } from "@vercel/analytics/react";
 
 const RouteConfig = () => {
   return (
     <BrowserRouter>
+      <Analytics />
       <Routes>
         <Route path="/" element={<HomePages />} />
         <Route path="/peta-bencana" element={<PetaBencanaPages />} />
