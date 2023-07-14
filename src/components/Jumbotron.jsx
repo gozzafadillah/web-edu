@@ -18,8 +18,8 @@ const Jumbotron = () => {
             textAlign: "justify",
           }}
         >
-          Melalui Website ini teman-teman akan mendapatkan informasi tentang
-          Kesiapsiagaan Bencana di Kawasan Kota Bandung.
+          Melalui Website ini Ibu/Bapak serta teman temannya akan mendapatkan
+          informasi tentang Kesiapsiagaan Bencana di Kawasan Kota Bandung.
         </p>
       </div>
       <div>
