@@ -20,6 +20,8 @@ const AboutUsPages = () => {
         }}
       >
         <div className="sider about">
+          <h1 style={{ fontWeight: "bold" }}>About Us</h1>
+
           <img src={aboutUs} alt="contact-us" className="img-contact-us" />
           <div className="about-body my-3">
             Website ini merupakan website yang di kembangkan oleh Febby Padhilah
@@ -28,7 +30,7 @@ const AboutUsPages = () => {
           </div>
         </div>
         <section className="about-list">
-          <img width="250vw" src={logo} alt="logo-ppni" />
+          <img width="350vw" src={logo} alt="logo-ppni-about" />
         </section>
       </div>
       <Footer />

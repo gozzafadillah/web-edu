@@ -234,6 +234,9 @@ section.content-education .container {
     width: 300px;
     text-align: center;
   }
+  .logo-ppni-about {
+    width: 300px;
+  }
 }
 
 @media (max-width: 400px) {
