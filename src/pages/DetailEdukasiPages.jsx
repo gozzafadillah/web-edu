@@ -46,7 +46,11 @@ const DetailEdukasiPages = () => {
         <div className="container">
           <div className="content-left">
             <div className="title-content">{data?.title}</div>
+            <div className="flyer-content my-3">
+              <img src={data?.flyer} alt="flyer banjir" />
+            </div>
             <div className="video-content">
+              <h5 className="title-content">Video Materi</h5>
               <iframe
                 src={"https://www.youtube.com/embed/" + data?.video}
                 title="YouTube video player"

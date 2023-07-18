@@ -152,19 +152,28 @@ section.content-education .container {
   height: 40vh;
 }
 
+.flyer-content img {
+  width: 42vw;
+  height: 600px;
+}
+
 @media (max-width: 900px) {
   section.content-education .container {
     flex-wrap: wrap;
   }
   .video-content iframe {
     width: 50vw;
-    height: 20vh;
+    height: 250px;
   }
   .content-right .content-body {
     border: 2px solid #313131;
     border-radius: 10px;
     background-color: #605f5f;
     color: white;
+  }
+  .flyer-content img {
+    width: 500px;
+    height: 500px;
   }
 }
 
@@ -176,6 +185,14 @@ section.content-education .container {
     margin: 10px !important;
     font-size: 16px !important;
   }
+  .video-content iframe {
+    width: 350px;
+    height: 250px;
+  }
+  .flyer-content img {
+    width: 400px;
+    height: 400px;
+  }
 }
 
 @media (max-width: 400px) {
@@ -183,10 +200,18 @@ section.content-education .container {
     width: 300px;
   }
   .logo-bencana {
-    width: 200px;
+    width: 275px;
   }
   /* contact us */
   .img-contact-us {
     width: 300px;
+  }
+  .video-content iframe {
+    width: 250px;
+    height: 250px;
+  }
+  .flyer-content img {
+    width: 300px;
+    height: 300px;
   }
 }

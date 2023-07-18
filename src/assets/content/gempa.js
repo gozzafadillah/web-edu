@@ -1,3 +1,4 @@
+import gempaFlyer from "../img/flyer/flyer-gempa.jpeg";
 const gempa = {
   title: "Gempa",
   video: "ck5KFg5vXk0",
@@ -55,6 +56,7 @@ const gempa = {
     <li>Tahap Pasca Bencana: meliputi rehabilitasi dan rekonstruksi.</li>
   </ol>
   `,
+  flyer: gempaFlyer,
 };
 
 export default gempa;
