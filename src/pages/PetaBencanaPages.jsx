@@ -16,12 +16,24 @@ const PetaBencanaPages = () => {
   return (
     <div>
       <Navbar />
-      <section className="edukasi">
-        <div className="container edukasi-container p-2">
+      <section className="edukasi container">
+        <h1 style={{ fontWeight: "bold" }}>Peta Bencana Kota Bandung</h1>
+        <div
+          className=" edukasi-container p-2"
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            flexWrap: "wrap",
+          }}
+        >
           <div className="img-content py-3">
             <div
               className="img-list"
-              style={{ display: "flex", flexDirection: "column", gap: "20px" }}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                gap: "20px",
+              }}
             >
               <div className="img-item">
                 <img
@@ -52,8 +64,7 @@ const PetaBencanaPages = () => {
               </div>
             </div>
           </div>
-          <div className="text-content">
-            <h1 style={{ fontWeight: "bold" }}>Peta Bencana Kota Bandung</h1>
+          <div className="text-content mb-5">
             <p style={{ fontSize: "20px" }}>
               Jika teman-teman melihat peta di samping, teman-teman dapat
               mengetahui bahwa kawasan Kota Bandung yang memiliki tingkat
