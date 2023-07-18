@@ -67,7 +67,7 @@ const Footer = () => {
           display: "flex",
           flexDirection: "column",
           textAlign: "center",
-          padding: "10px 100px",
+          padding: "10px 50px",
         }}
         className="breaking-news"
       >
