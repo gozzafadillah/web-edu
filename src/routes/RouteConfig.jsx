@@ -7,6 +7,7 @@ import EdukasiPages from "../pages/EdukasiPages";
 import ContactPages from "../pages/ContactPages";
 import DetailEdukasiPages from "../pages/DetailEdukasiPages";
 import { Analytics } from "@vercel/analytics/react";
+import AboutUsPages from "../pages/AboutUsPages";
 
 const RouteConfig = () => {
   return (
@@ -19,6 +20,7 @@ const RouteConfig = () => {
         <Route path="/edukasi" element={<EdukasiPages />} />
         <Route path="/contact" element={<ContactPages />} />
         <Route path="/edukasi/:name" element={<DetailEdukasiPages />} />
+        <Route path="/about-us" element={<AboutUsPages />} />
       </Routes>
     </BrowserRouter>
   );

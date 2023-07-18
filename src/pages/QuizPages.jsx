@@ -30,6 +30,20 @@ const QuizPages = () => {
             </Link>
           </div>
           <div className="iframe-content">
+            <div className="link-quiz my-3">
+              <p style={{ fontWeight: "bold" }}>
+                Jika Quiz tidak Muncul bisa klik tombol dibawah
+              </p>
+              <a
+                className="btn"
+                target="_blank"
+                rel="noreferrer"
+                href="https://forms.gle/TASF78mM4Q9QxjvKA"
+                style={{ backgroundColor: "#ff8b43", color: "#fff" }}
+              >
+                Klik Menuju Quiz
+              </a>
+            </div>
             <iframe
               src="https://forms.gle/TASF78mM4Q9QxjvKA"
               title="form-quiz"

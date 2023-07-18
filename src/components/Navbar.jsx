@@ -49,7 +49,7 @@ const Navbar = () => {
                 color: "white",
                 width: "75px",
               }}
-              to="#"
+              to="/about-us"
             >
               Us
             </Link>
