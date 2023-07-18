@@ -22,9 +22,9 @@ const AboutUsPages = () => {
         <div className="sider about">
           <img src={aboutUs} alt="contact-us" className="img-contact-us" />
           <div className="about-body my-3">
-            Website ini merupakan website yang di kembangkan oleh ...... Website
-            ini memiliki fitur yang berfungsi untuk memberikan edukasi
-            kesiapsiagaan bencana dan informasi bencana.
+            Website ini merupakan website yang di kembangkan oleh Febby Padhilah
+            Nuraini Website ini memiliki fitur yang berfungsi untuk memberikan
+            edukasi kesiapsiagaan bencana dan informasi bencana.
           </div>
         </div>
         <section className="about-list">
