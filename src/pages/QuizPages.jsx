@@ -13,7 +13,7 @@ const QuizPages = () => {
   return (
     <div>
       <Navbar />
-      <section className="quiz">
+      <section className="quiz mx-3">
         <div className="container quiz-container">
           <div className="title-quiz">
             <h1>Quiz</h1>
