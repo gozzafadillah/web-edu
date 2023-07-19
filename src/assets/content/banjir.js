@@ -1,4 +1,6 @@
-import banjirFlyer from "../img/flyer/flyer-banjir.jpeg";
+import flyerBanjir from "../img/flyer/flyer-banjir.jpeg";
+import flyerPraBanjir from "../img/flyer/flyer-pra-banjir.jpeg";
+import flyerPascaBanjir from "../img/flyer/flyer-pasca-banjir.jpeg";
 const banjir = {
   title: "Banjir",
   video: "Pd1C9mdGBq4",
@@ -89,7 +91,7 @@ const banjir = {
     </li>
   </ul>
     `,
-  flyer: banjirFlyer,
+  flyer: [flyerPraBanjir, flyerBanjir, flyerPascaBanjir],
 };
 
 export default banjir;

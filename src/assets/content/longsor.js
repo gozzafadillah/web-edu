@@ -1,4 +1,6 @@
 import longsorFlyer from "../img/flyer/flyer-longsor.jpeg";
+import praLongsorFlyer from "../img/flyer/flyer-pra-longsor.jpeg";
+import pascaLongsorFlyer from "../img/flyer/flyer-pasca-longsor.jpeg";
 
 const longsor = {
   title: "Longsor",
@@ -53,7 +55,7 @@ const longsor = {
 
   <p>Pada saat terjadi bencana longsor, langkah-langkah tanggap darurat yang harus dilakukan meliputi penyelamatan dan pertolongan korban secepatnya, rehabilitasi korban dan prasarana, serta rekonstruksi untuk mengurangi risiko longsor di masa depan.</p>
   `,
-  flyer: longsorFlyer,
+  flyer: [praLongsorFlyer, longsorFlyer, pascaLongsorFlyer],
 };
 
 export default longsor;
