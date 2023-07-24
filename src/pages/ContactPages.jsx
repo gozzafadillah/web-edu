@@ -25,8 +25,7 @@ const ContactPages = () => {
             <h1>Emergency Contact</h1>
           </div>
           <div className="contact-body">
-            Jika ingin bekerja sama dengan kami, dapat menghubungi nomor dibawah
-            ini :
+            Berikut nomor contact darurat yang dapat dihubungi :
             <p style={{ fontWeight: "bold" }}>
               Siaga P3K dan Layanan Bencana: 022-4213858
             </p>
